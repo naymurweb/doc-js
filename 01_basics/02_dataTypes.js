@@ -8,13 +8,12 @@
 
 // array,obj,null =value is obj type
 
-const name="naymur";
-const age=12;
-const isRain=true;
+const name = "naymur";
+const age = 12;
+const isRain = true;
 let movie;
-const book=null;
-const roll=BigInt(40)
-const sym=Symbol("foo")
+const book = null;
+const roll = BigInt(40);
+const sym = Symbol("foo");
 
-console.log(typeof movie, typeof null,typeof roll,roll,sym,typeof sym);
-
+console.log(typeof movie, typeof null, typeof roll, roll, sym, typeof sym);

@@ -23,7 +23,6 @@ const unique2 = Symbol("123");
 const bigNum = BigInt("3583457345645347353333");
 // bigInt return type bigint
 
-
 // non-primitive (reference)========================
 // array, object, function
 
@@ -46,14 +45,14 @@ function myFun() {
 
 // stack(primitive)-copy heap(not primitive)-reference
 
-const youtubeName='prantodot'
-let anatherYoutube=youtubeName;
-anatherYoutube='tonmoyFb'
+const youtubeName = "prantodot";
+let anatherYoutube = youtubeName;
+anatherYoutube = "tonmoyFb";
 // console.log(youtubeName,anatherYoutube);
 
-const user={
-    email:'np@gmail.com'
-}
+const user = {
+  email: "np@gmail.com",
+};
 
-user.email='tonmoy@gmail.com'
+user.email = "tonmoy@gmail.com";
 console.log(user.email);
